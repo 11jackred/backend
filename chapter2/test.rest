@@ -1,0 +1,19 @@
+### TEST GET / WEBSITE
+GET http://localhost:5960
+
+### TEST GET /dashboard WEBSITE
+GET http://localhost:5960/dashboard
+
+### DATA ENDPOINT
+GET http://localhost:5960/api/data
+
+### DATA ENDPOINT FOR ADDING A USER
+POST http://localhost:5960/api/data
+Content-Type:application/json
+
+{
+  "name":"gilgamesh"
+}
+
+### DELETE ENDPOINT
+DELETE  http://localhost:5960/api/data

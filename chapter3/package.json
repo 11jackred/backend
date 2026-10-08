@@ -1,7 +1,7 @@
 {
   "name": "chapter3",
   "version": "1.0.0",
-  "description": "A full stack todo application that uses a node js backend, a SQLite database and JWT authentication",
+  "description": "that uses a node js backend, a SQLite database and JWT authentication",
   "main": "index.js",
   "type":"module",
   "scripts": {
